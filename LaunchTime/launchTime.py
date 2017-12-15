@@ -19,7 +19,7 @@ class App():
 
     def StopApp(self):
         cmd = 'adb shell am force-stop com.ss.android.article.video'
-        # cmd = 'adb shell iput keyevent 3'
+        # cmd = 'adb shell input keyevent 3'
         os.popen(cmd)
     # 获取启动时间
     def GetLaunchTime(self):
